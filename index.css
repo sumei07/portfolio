@@ -1,0 +1,116 @@
+
+.hero{
+    height: 100vh;
+    background-color:#ece7ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:rgb(0, 0, 0); 
+}
+
+.profile-img{
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+.section{
+    background-color: rgb(246, 247, 198);
+    margin-top: 10px;
+}
+.abtme{
+    width:350px;
+    height: 350px;
+    object-fit: cover;
+   align-items: center;
+}
+.ability{
+    background-color: rgb(255, 247, 205);
+    padding: 60px 0;
+}
+.ability h1{
+    font-weight: 700;
+    color: #333;
+    background-color: rgb(255, 247, 205) ;
+}
+.ability .col-md-3{
+    width: 250px;
+    height:150px;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+.ability .col-md-3:hover{
+    background-color: #f0e787;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+.imgpro{
+    height: 150px;
+    width: 150px;
+}
+ .project {
+    background: #f4f1ea; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .custom-card {
+    max-width: 340px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fffdf8;
+    border: 1px solid #e5e0d8;
+    transition: all 0.3s ease;
+  }
+
+ 
+  .custom-card:hover {
+    transform: translateY(-5px);
+    border-color: #cbbfae;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  }
+
+  .img-wrapper {
+    height: 170px;
+    overflow: hidden;
+    background: #eee;
+  }
+
+  .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  /* smooth zoom */
+  .custom-card:hover img {
+    transform: scale(1.08);
+  }
+
+  .card-body {
+    padding: 18px;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #3e3a34;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    color: #6b645c;
+    line-height: 1.5;
+  }
+  .footer{
+    background-color: rgb(229, 229, 90);
+    
+  }
